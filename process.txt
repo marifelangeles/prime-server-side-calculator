@@ -1,0 +1,29 @@
+CALCULATOR (base)
+
+Content: 
+    x add html content
+
+Calculator:
+input:
+    x when = button is clicked
+    x get input values: num1, num2, operator
+    x bundle values in object
+    x send object to server via POST
+    x push object to array in server
+output:
+    x when C button is clicked
+        x clear user input fields
+    x compute numbers in server
+        x get num1 and num2
+        x get operator 
+        x change number values to integers
+        x switch case to calculate expression
+        x reassign answer
+    x send answer to client in an object 
+        x in client, make get request from answersList
+    display full calculation and answer on list
+
+
+History:
+input:
+output:

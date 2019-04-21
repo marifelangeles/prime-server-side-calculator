@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <script src="jquery.js"></script>
+    <script src="client.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Server Side Calculator</h1>
+
+    <div id="inputDiv">
+        <input type="number" id="num1" class="numbersInput" placeholder="First Number">
+        <button class="operatorButton" id="addButton" value="+">+</button>
+        <button class="operatorButton" id="minusButton" value="-">-</button>
+        <button class="operatorButton" id="multiplyButton" value="*">*</button>
+        <button class="operatorButton" id="divideButton" value="/">/</button>
+        <input type="number" id="num2" class="numbersInput" placeholder="Second Number">
+        <button id="equalButton" value="=">=</button>
+        <button id="clearButton">C</button>
+    </div>
+
+    <div id="outputDiv">
+        <div id="answerDiv">
+            <p id="answer"></p>
+        </div> 
+        <ul id="history">
+            
+        </ul>
+    </div>
+    
+</body>
+</html>
